@@ -64,7 +64,7 @@ class Test_03():
 
 
     def test_orders_pending(self):
-        '''获取所有未完成的订单'''
+        '''获取所有未完成的订单aaaa'''
         ss = CanShu_03()
         method, path, body = ss.orders_pending()
         hea = JiaMi(method, path, body)
